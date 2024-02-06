@@ -52,10 +52,13 @@ Preprocessing steps include:
 
 ### Model Development
 
-Two models will be experimented with:
+### Goals of this Project
+In this project, you will build a model to recognise 5 hand gestures. 
+You need to accomplish the following in the project:
 
-1. **3D Convolutional Network:** For capturing spatial and temporal features.
-2. **CNN-RNN Stack:** For extracting spatial features followed by temporal sequencing.
+<b> Generator:</b>  The generator should be able to take a batch of videos as input without any error. Steps like cropping, resizing and normalization should be performed successfully.
+
+<b> Model:</b> Develop a model that is able to train without any errors which will be judged on the total number of parameters (as the inference(prediction) time should be less) and the accuracy achieved.
 
 ## Conclusion
 
